@@ -86,7 +86,7 @@ def strassen_multiply(A: List[List[int]],
         add_matrix(B21, B22)
     )
 
-    # Recombine using the formulas from the image
+    # Calculate result submatrices
 
     C11 = add_matrix(
         subtract_matrix(
